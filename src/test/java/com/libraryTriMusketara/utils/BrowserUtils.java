@@ -9,6 +9,8 @@ public class BrowserUtils {
 
     private static WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 20);
 
+
+    // try catch block for Thread.sleep
     public static void wait(int seconds) {
         try {
             Thread.sleep(seconds * 1000);
@@ -17,15 +19,18 @@ public class BrowserUtils {
         }
     }
 
+    // wait method for Element to be clickable
     public static void clickOnElement(WebElement element) {
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
     }
 
+    // wait method for Element to be clickable using JavaScript
     public static void clickWithJS(WebElement element) {
         wait.until(ExpectedConditions.elementToBeClickable(element));
         ((JavascriptExecutor) (Driver.getDriver())).executeScript("arguments[0].click()", element);
     }
 
+    // wait method for Element to be visible --> TO BE CHECKED!!!
     public static void enterText(WebElement element, String text){
         wait.until(ExpectedConditions.visibilityOf(element));
         element.clear();
@@ -33,6 +38,7 @@ public class BrowserUtils {
         wait.until(ExpectedConditions.attributeToBe(element, "value", text));
         System.out.println("Entering text: " + text);
     }
+    // wait method for Element to be visible
     public static void visibility(WebElement element){
         wait.until(ExpectedConditions.visibilityOf(element));
     }
