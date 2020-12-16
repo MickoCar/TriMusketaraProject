@@ -1,4 +1,4 @@
-package com.vytrack.runners;
+package com.library.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         features = "src/test/resources/Features",
-        glue = "com/vytrack/stepDefinitions",
+        glue = "com/library/stepDefinitions",
         dryRun = false,
         tags = ""
 )

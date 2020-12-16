@@ -1,9 +1,9 @@
-package com.vytrack.stepDefinitions;
+package com.library.stepDefinitions;
 
-import com.vytrack.pages.LoginPage;
-import com.vytrack.utils.BrowserUtils;
-import com.vytrack.utils.ConfigurationReader;
-import com.vytrack.utils.Driver;
+import com.library.pages.LoginPage;
+import com.library.utils.BrowserUtils;
+import com.library.utils.ConfigurationReader;
+import com.library.utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

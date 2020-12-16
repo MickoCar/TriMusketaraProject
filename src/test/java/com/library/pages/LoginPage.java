@@ -1,6 +1,6 @@
-package com.vytrack.pages;
+package com.library.pages;
 
-import com.vytrack.utils.ConfigurationReader;
+import com.library.utils.ConfigurationReader;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
