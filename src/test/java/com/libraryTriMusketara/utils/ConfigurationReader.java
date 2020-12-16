@@ -1,4 +1,4 @@
-package com.library.utils;
+package com.libraryTriMusketara.utils;
 
 import java.io.FileInputStream;
 import java.io.InputStream;

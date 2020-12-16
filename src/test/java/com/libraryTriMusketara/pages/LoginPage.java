@@ -1,6 +1,6 @@
-package com.library.pages;
+package com.libraryTriMusketara.pages;
 
-import com.library.utils.ConfigurationReader;
+import com.libraryTriMusketara.utils.ConfigurationReader;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 

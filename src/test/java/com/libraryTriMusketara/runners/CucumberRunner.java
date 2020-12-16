@@ -1,4 +1,4 @@
-package com.library.runners;
+package com.libraryTriMusketara.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         features = "src/test/resources/Features",
-        glue = "com/library/stepDefinitions",
+        glue = "com/libraryTriMusketara/stepDefinitions",
         dryRun = false,
         tags = ""
 )

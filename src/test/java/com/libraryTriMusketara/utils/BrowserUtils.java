@@ -1,4 +1,4 @@
-package com.library.utils;
+package com.libraryTriMusketara.utils;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

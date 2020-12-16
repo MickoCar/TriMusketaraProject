@@ -1,9 +1,9 @@
-package com.library.stepDefinitions;
+package com.libraryTriMusketara.stepDefinitions;
 
-import com.library.pages.LoginPage;
-import com.library.utils.BrowserUtils;
-import com.library.utils.ConfigurationReader;
-import com.library.utils.Driver;
+import com.libraryTriMusketara.pages.LoginPage;
+import com.libraryTriMusketara.utils.BrowserUtils;
+import com.libraryTriMusketara.utils.ConfigurationReader;
+import com.libraryTriMusketara.utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

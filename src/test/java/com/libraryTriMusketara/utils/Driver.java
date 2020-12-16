@@ -1,4 +1,4 @@
-package com.library.utils;
+package com.libraryTriMusketara.utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
